@@ -1,3 +1,25 @@
+
+# Bank Reconciliation App
+
+This project is a mini tableur for bank and accounting reconciliation.
+
+## Running the Backend
+
+1. **Clone or Download Repository**: Clone or download the repository from [GitHub Repository URL].
+
+2. **Navigate to Backend Directory**: Open a terminal and navigate to the directory where the .NET backend project is located.
+
+3. **Install Dependencies**: Run the following command to restore dependencies:
+
+   ```bash
+   dotnet restore
+
+# Run the Application: Start the .NET backend application with:
+
+dotnet run
+
+The backend will start on http://localhost:5000.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
