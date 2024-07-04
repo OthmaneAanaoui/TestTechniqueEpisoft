@@ -33,3 +33,6 @@
 /Users/aanaouiothmane/Downloads/BankReconciliationAPI/obj/Debug/net8.0/BankReconciliationAPI.pdb
 /Users/aanaouiothmane/Downloads/BankReconciliationAPI/obj/Debug/net8.0/BankReconciliationAPI.genruntimeconfig.cache
 /Users/aanaouiothmane/Downloads/BankReconciliationAPI/obj/Debug/net8.0/ref/BankReconciliationAPI.dll
+/Users/aanaouiothmane/Downloads/BankReconciliationAPI/bin/Debug/net8.0/bank-reconciliation-frontend/package-lock.json
+/Users/aanaouiothmane/Downloads/BankReconciliationAPI/bin/Debug/net8.0/bank-reconciliation-frontend/package.json
+/Users/aanaouiothmane/Downloads/BankReconciliationAPI/bin/Debug/net8.0/bank-reconciliation-frontend/public/manifest.json

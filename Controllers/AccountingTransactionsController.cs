@@ -14,10 +14,6 @@ namespace BankReconciliationAPI.Controllers
     {
         public static List<AccountingTransaction> _accountingTransactions = new List<AccountingTransaction>();
 
-        /// <summary>
-        /// Importe les transactions comptables à partir d'un fichier CSV.
-        /// </summary>
-        /// <returns>La liste des transactions comptables importées.</returns>
         [HttpPost("import")]
         public IActionResult ImportAccountingTransactions()
         {
@@ -35,10 +31,6 @@ namespace BankReconciliationAPI.Controllers
             return Ok(_accountingTransactions);
         }
 
-        /// <summary>
-        /// Récupère la liste des transactions comptables importées.
-        /// </summary>
-        /// <returns>La liste des transactions comptables.</returns>
         [HttpGet]
         public IActionResult GetAccountingTransactions()
         {

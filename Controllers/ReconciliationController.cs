@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using BankReconciliationAPI.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -9,12 +10,7 @@ namespace BankReconciliationAPI.Controllers
     [Route("api/[controller]")]
     public class ReconciliationController : ControllerBase
     {
-        /// <summary>
-        /// Réconcilie les transactions bancaires et comptables en fonction d'une tolérance.
-        /// </summary>
-        /// <param name="tolerance">Tolérance en pourcentage.</param>
-        /// <returns>Le taux de réconciliation et les paires de transactions rapprochées.</returns>
-        [HttpPost]
+       [HttpPost]
         public IActionResult ReconcileTransactions([FromQuery] double tolerance)
         {
             var bankTransactions = BankTransactionsController._bankTransactions;
@@ -26,7 +22,8 @@ namespace BankReconciliationAPI.Controllers
             {
                 foreach (var accountingTransaction in accountingTransactions)
                 {
-                    if (Math.Abs(bankTransaction.Amount - accountingTransaction.Amount) <= tolerance * Math.Max(bankTransaction.Amount, accountingTransaction.Amount))
+                    // Convert decimal to double before multiplication
+                    if (Math.Abs((double)bankTransaction.Amount - (double)accountingTransaction.Amount) <= tolerance * Math.Max((double)bankTransaction.Amount, (double)accountingTransaction.Amount))
                     {
                         reconciledPairs.Add((bankTransaction, accountingTransaction));
                         break;

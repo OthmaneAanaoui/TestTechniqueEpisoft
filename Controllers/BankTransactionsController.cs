@@ -14,10 +14,6 @@ namespace BankReconciliationAPI.Controllers
     {
         public static List<BankTransaction> _bankTransactions = new List<BankTransaction>();
 
-        /// <summary>
-        /// Importe les transactions bancaires à partir d'un fichier CSV.
-        /// </summary>
-        /// <returns>La liste des transactions bancaires importées.</returns>
         [HttpPost("import")]
         public IActionResult ImportBankTransactions()
         {
@@ -35,10 +31,6 @@ namespace BankReconciliationAPI.Controllers
             return Ok(_bankTransactions);
         }
 
-        /// <summary>
-        /// Récupère la liste des transactions bancaires importées.
-        /// </summary>
-        /// <returns>La liste des transactions bancaires.</returns>
         [HttpGet]
         public IActionResult GetBankTransactions()
         {

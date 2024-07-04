@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{86122634-FC62-4BEB-BD31-9797BB62DED5}|https">
+  <MonoDevelop.Ide.ItemProperties.BankReconciliationAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ReconciliationController.cs">
+    <Files>
+      <File FileName="appsettings.json" Line="1" Column="1" />
+      <File FileName="BankReconciliationAPI.http" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="35" Column="1" />
+      <File FileName="Models/BankTransaction.cs" Line="12" Column="1" />
+      <File FileName="Models/AccountingTransaction.cs" Line="12" Column="1" />
+      <File FileName="Controllers/AccountingTransactionsController.cs" Line="42" Column="1" />
+      <File FileName="Controllers/BankTransactionsController.cs" Line="42" Column="1" />
+      <File FileName="Controllers/ReconciliationController.cs" Line="19" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BankReconciliationAPI">
+            <Node name="BankReconciliationAPI">
+              <Node name="bank-reconciliation-frontend" expanded="True">
+                <Node name="package.json" expanded="True" />
+              </Node>
+              <Node name="Controllers">
+                <Node name="ReconciliationController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
