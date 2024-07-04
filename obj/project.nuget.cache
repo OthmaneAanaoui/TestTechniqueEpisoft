@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1oNqbubqQ5UufDHBKNRupW06+6F9WCQ44irZGAY8ttdztFId1q1b8pRCHThy9Kv7pk7IRhPHnL5M7iw6YA6y8w==",
+  "dgSpecHash": "nDzzs+jrv/L1HQT655KbkMrN0rX89YaGUxXUBSH6SU3YAa2WOLWNqnc0tmXcnwfXVyedIXd0981mRKjlBSstkA==",
   "success": true,
   "projectFilePath": "/Users/aanaouiothmane/Downloads/BankReconciliationAPI/BankReconciliationAPI.csproj",
   "expectedPackageFiles": [
+    "/Users/aanaouiothmane/.nuget/packages/csvhelper/33.0.1/csvhelper.33.0.1.nupkg.sha512",
     "/Users/aanaouiothmane/.nuget/packages/microsoft.aspnetcore.openapi/8.0.5/microsoft.aspnetcore.openapi.8.0.5.nupkg.sha512",
     "/Users/aanaouiothmane/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/aanaouiothmane/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",

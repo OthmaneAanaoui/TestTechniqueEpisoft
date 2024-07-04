@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "WYd+wO9TU1t2A4c7NMQvkpus5CbCnVBYWywYsI3PBj0=",
+  "Source": "BankReconciliationAPI",
+  "BasePath": "_content/BankReconciliationAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
